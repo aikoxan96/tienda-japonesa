@@ -58,6 +58,18 @@
  * Zone JS is required by default for Angular itself.
  */
 import 'zone.js';  // Included with Angular CLI.
+export class AppComponent {
+    title = 'tienda-japonesa';
+  
+    isNightMode: boolean = false;
+  
+  
+    darkMode() {
+      this.isNightMode = !this.isNightMode;
+      document.body.classList.toggle('dark');
+  
+    }
+  }
 
 
 /***************************************************************************************************

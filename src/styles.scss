@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    &.contenedordark{
+        background-image: linear-gradient(to left, rgb(44, 44, 44),rgb(90, 90, 65));
+        color: white;
+    }
+   
+}
+body{
+    background-image: linear-gradient(to left, white,rgb(246, 246, 199));
+    cursor: url("https://cdn.custom-cursor.com/db/7189/32/cute-onigiri-and-makizushi-pointer.png"), pointer!important;
+    
+    
+  
+}
